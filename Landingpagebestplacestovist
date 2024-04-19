@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places to Visit Landing Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5; /* Light grey background */
+      color: #333; /* Dark grey text color */
+    }
+
+    .header {
+      background-color: #007bff; /* Blue header background */
+      color: #fff; /* White header text color */
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: #f8f9fa; /* Light grey hero background */
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .places {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .places h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .places ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .places li {
+      font-size: 24px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .places li:hover {
+      transform: translateY(-5px);
+    }
+
+    .places li img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .places li p {
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .cta {
+      background-color: #007bff; /* Blue CTA background */
+      color: #fff; /* White CTA text color */
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .cta a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 24px;
+      background-color: #0056b3; /* Darker blue */
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #004080; /* Darker shade of blue on hover */
+    }
+
+    .footer {
+      background-color: #007bff; /* Blue footer background */
+      color: #fff; /* White footer text color */
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Explore Amazing Places Around the World</h1>
+  </div>
+
+  <div class="hero">
+    <h1>Discover Your Next Adventure</h1>
+  </div>
+
+  <div class="places">
+    <h2>Popular Destinations</h2>
+    <ul>
+      <li>
+     
+        <p>Santorini, Greece</p>
+      </li>
+      <li>
+        
+        <p>Manali,India</p>
+      </li>
+      <li>
+     
+        <p>Maui, Hawaii</p>
+      </li>
+      <li>
+     
+        <p>Amalfi Coast, Italy</p>
+      </li>
+      <li>
+       
+        <p>Barcelona, Spain</p>
+      </li>
+      <li>
+       
+        <p>Phuket, Thailand</p>
+      </li>
+      <li>
+
+        <p>Maldives</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="cta">
+    <a href="#contact">Start Your Journey Now</a>
+  </div>
+
+  <div class="footer">
+   
